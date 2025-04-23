@@ -1,0 +1,123 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f8ff;
+    color: #333;
+}
+/* Add this to your style.css */
+body {
+    background-image: url('new.jpg');
+    background-size: cover; /* Ensures the image covers the whole background */
+    background-position: center; /* Centers the background image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Keeps the background fixed in place */
+}
+
+header {
+    background-color: #e65c1e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#choleoVarLogo {
+    width: 400px;
+    padding-left: 10px;
+}
+#igibLogo {
+    max-height:100px;
+    padding-right: 5px;
+    padding-top:20px;
+}
+nav {
+    background-color: #114b5f;
+    padding: 0.5rem;
+    text-align: center;
+    
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+/* Additional custom styles for your content */
+.about h2 {
+    font-size: 28px; /* Example of custom font size */
+}
+main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.about, .abstract {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.contact,.help {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.graphical-abstract {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+}
+.content-wrapper {
+    flex: 1 0 auto;
+    padding: 20px;
+}
+footer {
+    background-color: #114b5f;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    flex-shrink: 0;
+}
+.footerLink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.footerLink::hover {
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+}
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+}

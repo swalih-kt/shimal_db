@@ -1,0 +1,99 @@
+.search-container, .results-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: flex-end;
+}
+
+.search-form input, .search-form select, .results-controls select, .results-controls input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-form button, .pagination button {
+    padding: 8px 15px;
+    background-color: #063e5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.search-form button:hover, .pagination button:hover {
+    background-color: #005fa3;
+}
+
+.example-search {
+    margin-top: 40px;
+    margin-left: 200px;
+}
+
+.example-search table {
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.example-search td {
+    padding: 10px 0px 10px 1px;
+    border: none; /* First, remove all borders */
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.example-search button {
+    background-color: #0077be;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.example-search button:hover {
+    background-color: #005fa3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+}
+
+.results-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.results-table th, .results-table td {
+    border: 1px solid #ffffff;
+    padding: 8px;
+    text-align: left;
+}
+
+.results-table th {
+    background-color: #858585;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    margin: 0 5px;
+}
